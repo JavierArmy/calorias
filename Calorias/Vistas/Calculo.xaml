@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Calorias.Vistas.Calculo">
+    <Grid BackgroundColor="#59A2D8">
+        <StackLayout VerticalOptions="Center"
+                     Margin="10">
+            <Image Source="calorias.png"
+                   Margin="80,1"
+                   Aspect="AspectFit"/>
+            <Label Text="Sexo"
+                   FontSize="Small"
+                       FontAttributes="Bold"
+                       VerticalOptions="Center"/>
+            <Frame HasShadow="False"
+                   CornerRadius="10">
+                <Entry Keyboard="Text"
+                       Placeholder="M/F"
+                       TextColor="Black"
+                       PlaceholderColor="Green"
+                       FontSize="Small"
+                       Margin="0,-20,0,-20"
+                       x:Name="txtsexo"/>
+            </Frame>
+            <Label Text="Estatura"
+                   FontSize="Small"
+                       FontAttributes="Bold"
+                       VerticalOptions="Center"/>
+            <Frame HasShadow="False"
+                   CornerRadius="10">
+                <Entry Keyboard="Numeric"
+                       Placeholder="Centimetros(cm)"
+                       TextColor="Black"
+                       PlaceholderColor="Green"
+                       FontSize="Small"
+                       Margin="0,-20,0,-20"
+                       x:Name="txtcm"/>
+            </Frame>
+            <Label Text="Peso"
+                   FontSize="Small"
+                   FontAttributes="Bold"
+                   VerticalOptions="Center"/>
+            <Frame HasShadow="False"
+                   CornerRadius="10">
+                <Entry Keyboard="Numeric"
+                       Placeholder="Kilogramos(Kg)"
+                       TextColor="Black"
+                       PlaceholderColor="#E56A6A"
+                       FontSize="Small"
+                       Margin="0,-20,0,-20"
+                       x:Name="txtkg"/>
+            </Frame>
+            <Label Text="Actividad fisica"
+                   FontSize="Small"
+                   FontAttributes="Bold"
+                   VerticalOptions="Center"/>
+            <Frame HasShadow="False"
+                   CornerRadius="10">
+                <Entry Keyboard="Text"
+                       Placeholder="Nivel"
+                       TextColor="Black"
+                       PlaceholderColor="#E56A6A"
+                       FontSize="Small"
+                       Margin="0,-20,0,-20"
+                       x:Name="txtactividad"/>
+            </Frame>
+            <Button Text="Calcular"
+                    CornerRadius="30"
+                    FontSize="Small"
+                    FontAttributes="Bold"
+                    Margin="0,2,0,0"
+                    TextTransform="None"
+                    BackgroundColor="#BEDD6B"
+                    TextColor="White"
+                    x:Name="btncalcular"
+                    Clicked="btncalcular_Clicked"/>
+          
+            <Button Text="Volver"
+                    TextTransform="None"
+                    BackgroundColor="White"
+                    TextColor="Black"
+                    FontSize="Small"
+                    FontAttributes="Bold"
+                    HorizontalOptions="Center"
+                    CornerRadius="10"
+                    Margin="0,2,0,0"
+                    x:Name="btnvolver"
+                    Clicked="btnvolver_Clicked"/>
+        </StackLayout>
+    </Grid>
+
+</ContentPage>

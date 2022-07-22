@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "CiDG6PfswVah6AGqkfLM9+VzK7RBZSpKLEqNJJO2YSrjygdTUfA6RdgjGij4PccM/HcdItzVIPLCjUehb1riXg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\USUARIO\\Downloads\\Calorias\\Calorias.iOS\\Calorias.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\USUARIO\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}
